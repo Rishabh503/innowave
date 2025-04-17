@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { Users, Trophy, Calendar, Rocket, Award, TrendingUp } from 'lucide-react';
 
 import audi from '../public/audi.jpg'
+
+import { AboutHero } from '../components/AboutHero';
 const Home = () => {
   
   return (
@@ -37,7 +39,7 @@ const Home = () => {
           </button>
         </motion.div>
       </section>
-
+      <AboutHero/>
       {/* Benefits Sections */}
       <section className="py-20 bg-white">
         <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
