@@ -13,7 +13,8 @@ export const AboutHero = () => {
             <div className='w-2/3  gap-4 flex flex-col'>
                <h1 className='text-3xl font-semibold'>InnoWave X College Societies</h1>
                 <p className='text-lg'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsam unde modi quos incidunt deserunt iusto nobis tempore tempora itaque rem quod quo repudiandae totam, inventore, veritatis alias voluptas illo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate impedit sit possimus illo perferendis quisquam, harum inventore voluptates mollitia, porro voluptatum tempora aliquam fuga ullam similique quia at? Officiis, reiciendis!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ipsa praesentium magnam accusantium provident dicta laudantium possimus fugit ipsam unde culpa dolorum vero porro velit, totam molestiae nihil error quasi?
+                InnoWave is a dynamic platform designed to empower college societies by providing comprehensive support for their events and community-building efforts. It offers end-to-end assistance, including planning, funding, logistics, and access to a diverse network of speakers and performers. By simplifying these processes, InnoWave enables student organizations to focus on innovation and engagement. The platform also helps societies secure sponsorships, strengthen their digital presence, and boost event visibility across campuses. In addition, it facilitates meaningful collaborations with brands, artists, and professionals to elevate the quality and reach of student-led initiatives. Whether it’s a cultural festival, workshop, or awareness campaign, InnoWave serves as a reliable partner in bringing ideas to life and fostering a vibrant, interconnected campus ecosystem. 
+                
                 </p>
                 <div className='grid grid-cols-3 gap-2 mt-3'>
                     <div>

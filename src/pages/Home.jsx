@@ -5,6 +5,9 @@ import { Users, Trophy, Calendar, Rocket, Award, TrendingUp } from 'lucide-react
 import audi from '../public/audi.jpg'
 
 import { AboutHero } from '../components/AboutHero';
+import PartnersHome from '../components/PartnersHome';
+import SponsorCarousel from '../components/SponosrCaraousel';
+import EventShowcase from '../components/EventShowCase';
 const Home = () => {
   
   return (
@@ -40,6 +43,9 @@ const Home = () => {
         </motion.div>
       </section>
       <AboutHero/>
+      <PartnersHome/>
+      <EventShowcase/>
+   
       {/* Benefits Sections */}
       <section className="py-20 bg-white">
         <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
@@ -93,6 +99,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <SponsorCarousel/>
     </div>
   );
 };
