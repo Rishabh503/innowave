@@ -8,6 +8,10 @@ import { AboutHero } from '../components/AboutHero';
 import PartnersHome from '../components/PartnersHome';
 import SponsorCarousel from '../components/SponosrCaraousel';
 import EventShowcase from '../components/EventShowCase';
+import CollegeEventShowcase from '../components/Event3';
+import { FullScreenEventShowcase1 } from '../components/EventDisplay';
+import PastEventsSection from '../components/Event4';
+import EventDisplay from '../components/Event2';
 const Home = () => {
   
   return (
@@ -44,8 +48,20 @@ const Home = () => {
       </section>
       <AboutHero/>
       <PartnersHome/>
+
+      <h1 className='text-3xl text-center'>EVENTS SECTION</h1>
+      <h1 className='text-3xl text-center'>option 1</h1>
       <EventShowcase/>
    
+      <h1 className='text-3xl text-center'>option 2</h1>
+        <CollegeEventShowcase/>
+        <h1 className='text-3xl text-center'>option 3</h1>
+        <EventDisplay/>
+        <h1 className='text-3xl text-center'>option 4</h1>
+        <FullScreenEventShowcase1/>
+        <h1 className='text-3xl text-center'>option 5</h1>
+        <PastEventsSection/>
+
       {/* Benefits Sections */}
       <section className="py-20 bg-white">
         <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
