@@ -30,7 +30,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>info@innowave.com</li>
+              <li>teaminnowave@gmail.com</li>
               <li>+1 (555) 123-4567</li>
               <li>123 Innovation Street</li>
               <li>Tech Valley, CA 94025</li>

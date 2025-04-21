@@ -51,27 +51,13 @@ const Home = () => {
       <AboutHero/>
       <PartnersHome/>
 
-      <h1 className='text-3xl text-center'>EVENTS SECTION</h1>
-      <h1 className='text-3xl text-center'>option 1</h1>
-      <EventShowcase/>
-   
-      <h1 className='text-3xl text-center'>option 2</h1>
+      
         <CollegeEventShowcase/>
-        <h1 className='text-3xl text-center'>option 3</h1>
-        <EventDisplay/> 
-        <h1 className='text-3xl text-center'>option 4</h1>
-        <FullScreenEventShowcase1/>
-       <h1 className='text-3xl text-center'>option 5</h1>
-        <PastEventsSection/>
+        
       <BenefitsShowcasePreview/>
- <h1 className='text-3xl text-center'>SponosrBenifits SECTION</h1>
-      <h1 className='text-3xl text-center'>option 1</h1>
-      <SponsorBenefits/>
-      <h1 className='text-3xl text-center'>option 2</h1>
+ 
       <SponsorBenefits2/>
-      <h1 className='text-3xl text-center'>option 3</h1>
-      <SponsorBenefits3/>
-
+     
       <SponsorCarousel/>
     </div>
   );

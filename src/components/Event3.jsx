@@ -8,43 +8,44 @@ const pastEvents = [
     id: 1,
     title: "Zypher'24 Orientation",
     date: "August 17, 2024",
-    category: "Cultural",
+    category: "Orientation",
     description: "The grand welcome event for first-years by CSI-Innowave, featuring society intro, keynote speeches, and creative performances.",
-    highlights: ["2000+ attendees", "Founders Talk", "Pranav Sharma Performance","Singers"],
+    highlights: ["700+ attendees", "Speech by Saksham Gupta", "Team interaction"],
     imageUrl: "/api/placeholder/800/500",
     color: "from-pink-500 to-purple-600"
   },
   {
     id: 2,
-    title: "CODE-GENESIS",
-    date: "July 22, 2024",
-    category: "Technical",
-    description: "24-hour coding marathon with finals at MICROSOFT office where students built innovative solutions for real-world problems. Prizes worth 5Lakhs+.",
-    highlights: ["200+ teams", "Industry mentors", "FINALS AT MICRSOFT ","Live Demos"],
+    title: "ESPORTS-VISPHOT",
+    date: "November 10, 2024",
+    category: "Gaming",
+    description: "A Diwali-themed gaming night with thrilling rounds in BGMI, Skribbl, Fall Guys, and more. Celebrating fun and competition together.",
+    highlights: ["6 games", "Maroon CSI tees", "Full attendance"],
     imageUrl: "/api/placeholder/800/500",
     color: "from-cyan-500 to-blue-600"
   },
   {
     id: 3,
-    title: "UnCharted",
-    date: "September 5, 2024",
-    category: "Cultural",
-    description: "Inter-college sports tournament featuring basketball, football, cricket, and athletics with fierce competition.",
-    highlights: ["16 colleges", "Pro referees", "Trophy ceremony"],
+    title: "UNCHATTARED",
+    date: "January 25, 2025",
+    category: "Hackathon",
+    description: "One of MAIT’s biggest tech events featuring SMART-O-HACK — a hackathon where innovation met real-world challenges.",
+    highlights: ["Hackathon", "Workshops", "Major turnout"],
     imageUrl: "/api/placeholder/800/500",
     color: "from-amber-500 to-orange-600"
   },
   {
     id: 4,
-    title: "TEDx College Talks",
-    date: "November 12, 2024",
-    category: "Academic",
-    description: "Inspiring speakers sharing breakthrough ideas and personal journeys that captivated the audience all day long.",
-    highlights: ["8 speakers", "Live streaming", "Interactive Q&A"],
+    title: "CODE-GENESIS",
+    date: "February 10, 2025",
+    category: "Technical",
+    description: "A coding showdown hosted by CSI-Innowave, testing problem-solving skills and speed across multiple rounds.",
+    highlights: ["DSA Challenges", "Cash prizes", "Mentor sessions"],
     imageUrl: "/api/placeholder/800/500",
     color: "from-red-500 to-rose-600"
   }
 ];
+
 
 // Icons for event categories
 const categoryIcons = {
