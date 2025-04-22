@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Waves } from 'lucide-react';
 
-import logo from '../public/logo.jpg'
+// import logo from '../public/logo.jpg'
 
 const Navbar = () => {
   return (
@@ -17,7 +17,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
               {/* <Waves className="h-8 w-8 text-indigo-600" /> */}
-              <img className='h-full w-24 mt-2 object-cover rounded-sm' src={logo} alt="logo" />
+              <img className='h-full w-24 mt-2 object-cover rounded-sm' src="https://res.cloudinary.com/dhe9p6bo0/image/upload/v1745351291/WhatsApp_Image_2025-04-23_at_01.17.28_339ca0ff-removebg-preview_geqlaz.png" alt="logo" />
               {/* <span className="text-2xl font-bold text-indigo-600">InnoWave</span> */}
             </Link>
           </div>

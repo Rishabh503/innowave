@@ -21,7 +21,7 @@ const pastEvents = [
     category: "Technical",
     description: "24-hour coding marathon with finals at MICROSOFT office where students built innovative solutions for real-world problems. Prizes worth 5Lakhs+.",
     highlights: ["200+ teams", "Industry mentors", "FINALS AT MICRSOFT ","Live Demos"],
-    imageUrl: "/api/placeholder/800/500",
+    imageUrl: "https://res.cloudinary.com/dhe9p6bo0/image/upload/v1745346561/Screenshot_2025-04-22_235851_aaruzq.png",
     color: "from-cyan-500 to-blue-600"
   },
   {
@@ -36,7 +36,7 @@ const pastEvents = [
   },
   {
     id: 4,
-    title: "TEDx College Talks",
+    title: "Intership Fair",
     date: "November 12, 2024",
     category: "Academic",
     description: "Inspiring speakers sharing breakthrough ideas and personal journeys that captivated the audience all day long.",
@@ -114,7 +114,7 @@ export default function CollegeEventShowcase() {
         <div className="absolute bottom-20 left-1/3 w-80 h-80 bg-pink-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 parallax-element"></div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-7xl  mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Title with animated underline */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-2">

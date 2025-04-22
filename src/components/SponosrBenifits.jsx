@@ -70,44 +70,47 @@ export const SponsorBenefits = () => {
   );
 };
 
+import { FaBullseye, FaComments, FaLightbulb, FaRocket, FaChartLine, FaHandshake } from "react-icons/fa";
+
 export const SponsorBenefits2 = () => {
   const benefits2 = [
     {
-      icon: <FaUsers className="text-blue-600 text-3xl" />,
-      title: "Dedicated Event Strategy Team",
-      desc: "Work with our strategic mentors to ideate, plan, and execute stunning events with ease.",
+      icon: <FaHandshake className="text-blue-600 text-3xl" />,
+      title: "Direct access to youth communities",
+      desc: "Sponsors can directly engage with young audiences, especially students, who are trendsetters and early adopters.",
     },
     {
-      icon: <FaChalkboardTeacher className="text-blue-600 text-3xl" />,
-      title: "Exclusive Career Workshops & Talks",
-      desc: "Upskill your members through curated sessions by industry leaders and influencers.",
+      icon: <FaBullseye className="text-blue-600 text-3xl" />,
+      title: "Hyper-targeted marketing",
+      desc: "Campaigns can be precisely tailored to specific student segments, ensuring that the message reaches the right people.",
     },
     {
-      icon: <FaPalette className="text-blue-600 text-3xl" />,
-      title: "Branding Kit for Societies",
-      desc: "Elevate your society’s look with posters, logos, and reel templates designed by pros.",
+      icon: <FaRocket className="text-blue-600 text-3xl" />,
+      title: "Event branding opportunities",
+      desc: "Sponsors get visibility at student events, increasing brand recall and building positive associations with youth culture.",
     },
     {
-      icon: <FaNewspaper className="text-blue-600 text-3xl" />,
-      title: "Digital Magazine Feature",
-      desc: "Be seen across campuses with a dedicated feature in our widely shared e-magazine.",
+      icon: <FaChartLine className="text-blue-600 text-3xl" />,
+      title: "Amplify your brand presence",
+      desc: "Collaborations help boost your brand's visibility across campuses and social media, creating widespread buzz.",
     },
     {
-      icon: <FaRobot className="text-blue-600 text-3xl" />,
-      title: "Smart Analytics & Feedback",
-      desc: "Leverage AI-based feedback systems to track event success and student sentiment.",
+      icon: <FaLightbulb className="text-blue-600 text-3xl" />,
+      title: "Creative campaign execution",
+      desc: "Student-led ideas bring fresh and innovative campaign executions that connect authentically with the target audience.",
     },
     {
-      icon: <FaShapes className="text-blue-600 text-3xl" />,
-      title: "Design Resources & Templates",
-      desc: "Save time with ready-made editable designs for social media, invites, and more.",
+      icon: <FaComments className="text-blue-600 text-3xl" />,
+      title: "Unified platform for collaboration",
+      desc: "Sponsors benefit from a streamlined platform to manage collaborations, track campaign performance, and measure impact effectively.",
     },
   ];
+
   return (
     <section className="bg-gradient-to-br from-white to-blue-50 py-16 px-4 md:px-20" id="sponsor-benefits-2">
-      <div className=" mx-auto">
+      <div className="mx-auto">
         <h2 className="text-4xl font-extrabold text-blue-800 text-center mb-4">Sponsor Benefits</h2>
-        <p className="text-center text-gray-600 text-lg mb-12">Your society deserves more — and we’re here to deliver.</p>
+        <p className="text-center text-gray-600 text-lg mb-12">Why partner with us? Here’s how you gain.</p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {benefits2.map((item, index) => (
@@ -127,6 +130,7 @@ export const SponsorBenefits2 = () => {
     </section>
   );
 };
+
 
 export const SponsorBenefits3 = () => {
   const benefits3 = [
