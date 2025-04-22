@@ -11,7 +11,7 @@ const pastEvents = [
     category: "Cultural",
     description: "The grand welcome event for first-years by CSI-Innowave, featuring society intro, keynote speeches, and creative performances.",
     highlights: ["2000+ attendees", "Founders Talk", "Pranav Sharma Performance","Singers"],
-    imageUrl: "/api/placeholder/800/500",
+    imageUrl: "https://res.cloudinary.com/dhe9p6bo0/image/upload/v1745345923/IMG_6797_ilm6d7.jpg",
     color: "from-pink-500 to-purple-600"
   },
   {

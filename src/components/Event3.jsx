@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect, useRef } from 'react';
 import { Calendar, Users, Music, Camera, Trophy, ArrowRight, ArrowLeft } from 'lucide-react';
-
+import zypher from "../public/zypher.JPG"
 // Sample past events data - replace with your actual society events
 const pastEvents = [
   {
@@ -11,7 +11,7 @@ const pastEvents = [
     category: "Orientation",
     description: "The grand welcome event for first-years by CSI-Innowave, featuring society intro, keynote speeches, and creative performances.",
     highlights: ["700+ attendees", "Speech by Saksham Gupta", "Team interaction"],
-    imageUrl: "/api/placeholder/800/500",
+    imageUrl: "https://res.cloudinary.com/dhe9p6bo0/image/upload/v1745345923/IMG_6797_ilm6d7.jpg",
     color: "from-pink-500 to-purple-600"
   },
   {
@@ -41,7 +41,7 @@ const pastEvents = [
     category: "Technical",
     description: "A coding showdown hosted by CSI-Innowave, testing problem-solving skills and speed across multiple rounds.",
     highlights: ["DSA Challenges", "Cash prizes", "Mentor sessions"],
-    imageUrl: "/api/placeholder/800/500",
+    imageUrl:zypher,
     color: "from-red-500 to-rose-600"
   }
 ];
@@ -109,7 +109,10 @@ export default function CollegeEventShowcase() {
   return (
     <section className="relative py-16 overflow-hidden bg-gray-900" ref={containerRef}>
       {/* Animated background elements */}
+      <img src="https://res.cloudinary.com/dhe9p6bo0/image/upload/v1745345923/IMG_6797_ilm6d7.jpg" alt="" />
+      d
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
+      <img src="https://res.cloudinary.com/dhe9p6bo0/image/upload/v1745345923/IMG_6797_ilm6d7.jpg" alt="" />
         <div className="absolute top-10 left-10 w-64 h-64 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 parallax-element"></div>
         <div className="absolute top-40 right-20 w-72 h-72 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 parallax-element"></div>
         <div className="absolute bottom-20 left-1/3 w-80 h-80 bg-pink-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 parallax-element"></div>
@@ -119,6 +122,7 @@ export default function CollegeEventShowcase() {
         {/* Section Title with animated underline */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-2">
+          <img src="https://res.cloudinary.com/dhe9p6bo0/image/upload/v1745345923/IMG_6797_ilm6d7.jpg" alt="" />
             Unforgettable Moments
           </h2>
           <div className="relative h-1 w-40 bg-gray-700 mx-auto">
