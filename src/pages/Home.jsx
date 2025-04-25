@@ -17,7 +17,7 @@ import {SponsorBenefits, SponsorBenefits2, SponsorBenefits3 } from '../component
 const Home = () => {
   
   return (
-    {/* Test comment*/}
+    // {/* Test comment*/}
     <div className="min-h-screen  bg-white">
       {/* Hero Section */}
       <section className="relative bg-white h-screen flex items-center">

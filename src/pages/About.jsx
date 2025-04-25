@@ -75,7 +75,7 @@ export default function About() {
   ];
 
   return (
-    <div className="bg-white text-gray-900">
+    <div className="bg-gradient  text-gray-900">
       {/* Hero Section - Parallax Effect */}
       <div className="relative h-screen flex items-center overflow-hidden">
         {/* Background layers for parallax */}
@@ -189,8 +189,8 @@ export default function About() {
                   <div key={item} className={`${item % 2 === 0 ? "md:translate-y-12" : ""}`}>
                     <div className="bg-white rounded-3xl shadow-lg overflow-hidden transform transition-all hover:-translate-y-2 hover:shadow-xl">
                       <div className="aspect-square bg-gray-100 flex items-center justify-center">
-                       <img src={item.image} alt="" />
-                        <p className="text-gray-400">Photo</p>
+                       <img src={item.image} className='h-auto w-auto  object-cover' alt="" />
+                        
                       </div>
                       <div className="p-4 text-center">
                         <h3 className="font-bold text-sm text-blue-900">{item.name}</h3>

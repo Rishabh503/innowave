@@ -31,7 +31,7 @@ const pastEvents = [
     category: "Cultural",
     description: "Inter-college sports tournament featuring basketball, football, cricket, and athletics with fierce competition.",
     highlights: ["16 colleges", "Pro referees", "Trophy ceremony"],
-    imageUrl: "/api/placeholder/800/500",
+    imageUrl: "https://res.cloudinary.com/dhe9p6bo0/image/upload/v1745595165/WhatsApp_Image_2025-04-25_at_00.06.42_b880c5c6_rrebet.jpg",
     color: "from-amber-500 to-orange-600"
   },
   {
@@ -41,7 +41,7 @@ const pastEvents = [
     category: "Academic",
     description: "Inspiring speakers sharing breakthrough ideas and personal journeys that captivated the audience all day long.",
     highlights: ["8 speakers", "Live streaming", "Interactive Q&A"],
-    imageUrl: "/api/placeholder/800/500",
+    imageUrl: "https://res.cloudinary.com/dhe9p6bo0/image/upload/v1745595303/cece3a6c-b182-424e-ab34-ddebab8ccb95.png",
     color: "from-red-500 to-rose-600"
   }
 ];

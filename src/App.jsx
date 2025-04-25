@@ -12,7 +12,7 @@ import Sponsors from './pages/Sponsors';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-gradient-to-br from-indigo-500 to-purple-50">
+      <div className="min-h-screen">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
